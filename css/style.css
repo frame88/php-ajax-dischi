@@ -13,7 +13,7 @@
 
   }
 
-  .text-center {
+.text-center {
     text-align: center;
   }
 
@@ -32,4 +32,53 @@ header {
 header img {
     width: 50px;
     margin-left: 45px;
+}
+
+.container {
+    display: flex;
+    background-color: #1c2630;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.albums {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.album {
+    width: calc(100% / 5 - 40px);
+    margin-left: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #2b4663;
+    text-align: center;
+    
+}
+
+h3 {
+    color: white;
+    font-size: 1.4em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+}
+p {
+    color: gray;
+    font-size: 1em;
+
+
+}
+
+.album-cover {
+    margin: 0 auto;
+}
+
+.album-cover img {
+    width: 100%;
 }
