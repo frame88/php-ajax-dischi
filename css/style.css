@@ -49,7 +49,7 @@ header img {
     width: 80%;
     margin: auto;
 }
-.cd {
+.album {
     margin-left: 40px;
     margin-bottom: 30px;
     padding: 20px;
@@ -74,11 +74,11 @@ p {
 
 }
 
-.cd-cover img {
+.album-cover img {
     width: 100%;
 }
 
-.cd-cover {
+.album-cover {
     margin: 0 auto;
 }
 
