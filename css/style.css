@@ -30,33 +30,32 @@ header {
 }
 
 header img {
-    width: 50px;
-    margin-left: 45px;
+    width: 60px;
+    margin-left: 40px;
 }
 
 .container {
     display: flex;
-    background-color: #1c2630;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    padding: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c2630;
+    padding: 50px;
 }
 
 .albums {
-    width: 70%;
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
 }
-.album {
-    width: calc(100% / 5 - 40px);
+.cd {
     margin-left: 40px;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: #2b4663;
+    width: calc(100% / 5 - 40px);
     text-align: center;
+    background-color: #2b4663;
     
 }
 
@@ -75,10 +74,17 @@ p {
 
 }
 
-.album-cover {
+.cd-cover img {
+    width: 100%;
+}
+
+.cd-cover {
     margin: 0 auto;
 }
 
-.album-cover img {
+footer {
     width: 100%;
-}
+    height: 80px;
+    background-color: #2b4663;
+  }
+

@@ -28,5 +28,6 @@ Attraverso l'utilizzo di axios: al caricamento della pagina axios chiederà, att
             </div>
         </div>
     </main>
+    <?php include_once __DIR__ . '/partials/footer.php' ?>
 </body>
 </html> 

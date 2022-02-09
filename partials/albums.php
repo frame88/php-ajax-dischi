@@ -2,8 +2,8 @@
 include __DIR__ . '/../server/db.php';
 ?>
     <?php foreach($albums as $album) {?>
-        <div class="album">
-            <div class="album-cover">
+        <div class="cd">
+            <div class="cd-cover">
         <img src="<?php echo $album['poster'] ?>" alt="">   
         </div>
         <h3><?php echo $album['title'] ?></h3>
